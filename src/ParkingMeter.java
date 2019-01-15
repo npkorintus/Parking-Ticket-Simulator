@@ -4,8 +4,7 @@
 
 public class ParkingMeter
 {
-	private double minPurchased;		// Number of minutes of parking time purchased.
-
+	private double minPurchased;	// Number of minutes of parking time purchased.
 
 	// Constructor
 	public ParkingMeter (double minutes)
