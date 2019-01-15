@@ -1,14 +1,12 @@
-// Nick Korintus
+// Author: Nick Korintus
 //
-//	This program demonstrates a set of classes working together
-//	to simulate a police officer issuing a parking ticket.
+// This program demonstrates a set of classes working together
+// to simulate a police officer issuing a parking ticket.
 
 public class Demo
 {
-
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
 		// Create a parked car object.
 		ParkedCar car = new ParkedCar("Volkswagen", "1972", "Red", "147RHZM", 125);
 
