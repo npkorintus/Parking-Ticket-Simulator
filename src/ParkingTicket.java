@@ -12,7 +12,6 @@ public class ParkingTicket
 	private final double BASE_FINE = 25.0;
 	private final double HOURLY_FINE = 10.0;
 
-
 	// Constructor
 	public ParkingTicket(ParkedCar car, PoliceOfficer officer, double min)
 	{
@@ -24,7 +23,6 @@ public class ParkingTicket
 		calculateFine();
 	}
 
-
 	// Copy constructor
 	public ParkingTicket(ParkingTicket object2)
 	{
@@ -35,7 +33,6 @@ public class ParkingTicket
 
 		calculateFine();
 	}
-
 
 	// calculateFine method
 	public void calculateFine()
@@ -55,13 +52,11 @@ public class ParkingTicket
 		fine += (hoursAsInt * HOURLY_FINE);
 	}
 
-
 	// setCar method
 	public void setCar(ParkedCar car)
 	{
 		this.car = car;
 	}
-
 
 	// setOfficer method
 	public void setOfficer(PoliceOfficer officer)
@@ -69,13 +64,11 @@ public class ParkingTicket
 		this.officer = officer;
 	}
 
-
 	// getCar method
 	public ParkedCar getCar()
 	{
 		return new ParkedCar(car);
 	}
-
 
 	// getFine method
 	public double getFine()
@@ -83,13 +76,11 @@ public class ParkingTicket
 		return fine;
 	}
 
-
 	// getOfficer method
 	public PoliceOfficer getOfficer()
 	{
 		return new PoliceOfficer(officer);
 	}
-
 
 	// toString method
 	public String toString()
