@@ -95,8 +95,7 @@ public class ParkedCar
 	public String toString()
 	{
 		String str = "Car Data: \nMake: " + make + "\nModel: " + model + "\nColor: " + color +
-						"\nLicense Number: " + licenseNum + "\nMinutes Parked: " + minParked;
-
+				"\nLicense Number: " + licenseNum + "\nMinutes Parked: " + minParked;
 		return str;
 	}
 }
